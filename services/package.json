@@ -1,0 +1,20 @@
+{
+  "name": "aws-rest-with-dynamodb",
+  "version": "1.0.0",
+  "description": "Serverless CRUD service exposing a REST HTTP interface",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serverless": "^2.4.0",
+    "uuid": "^2.0.3"
+  },
+  "scripts": {
+    "dev": "serverless offline start --httpPort 8000",
+    "deploy": "serverless deploy",
+    "install-dynamo-db-offline": "serverless dynamodb install"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.8.0"
+  }
+}

@@ -1,0 +1,6 @@
+**/node_modules/
+**/yarn-error.log
+**/.DS_Store
+services/.dynamodb
+services/.serverless
+client/**/__snapshots__
